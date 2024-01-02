@@ -1,0 +1,21 @@
+.bar-chart-list{
+    list-style: none;
+    padding: 2rem;
+    width: 90%;
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &--item{
+        flex-basis: 90%;
+        margin: 1rem auto;
+    }
+}
+
+
+.header, .sub-header{
+    width: 30%;
+    margin: 1rem auto;
+    text-align: center;
+}

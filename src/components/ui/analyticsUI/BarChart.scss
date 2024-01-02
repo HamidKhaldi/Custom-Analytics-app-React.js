@@ -1,0 +1,25 @@
+.bar {
+    fill: #FFAF46;
+}
+
+.bar:hover {
+    fill: rgba(255, 152, 49, .9);
+    cursor: pointer;
+}
+
+.axis-x text {
+    font-size: 14px;
+    font-family: sans-serif;
+    text-anchor: middle;
+    font-weight: bold;
+}
+
+.axis-y text {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.axis-y .tick line {
+    stroke: red;
+}
